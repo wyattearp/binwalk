@@ -113,7 +113,7 @@ function install_cramfstools
   INSTALL_LOCATION=/usr/local/bin
 
   # https://github.com/torvalds/linux/blob/master/fs/cramfs/README#L106
-  git clone --quiet --depth 1 --branch "master" https://github.com/npitre/cramfs-tools
+  git clone --quiet --depth 1 --branch "master" https://github.com/wyattearp/cramfs-tools
   # There is no "make install"
   (cd cramfs-tools \
   && make \
